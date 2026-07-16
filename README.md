@@ -38,7 +38,7 @@ to the public fix. The list grows as I publish audit-competition and client find
 
 ## Contact
 
-- **GitHub** — [github.com/softseco](https://github.com/softseco)
+- **GitHub** — [github.com/joachimsz](https://github.com/joachimsz)
 - **Email** — hello@softseco.com
 - **X** — [@joachimsz_](https://x.com/joachimsz_)
 - **Cantina / Sherlock** — same handle (`joachimsz_`), profiles added as I enter audit contests
