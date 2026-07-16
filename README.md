@@ -4,8 +4,8 @@
 
 I build and break Solana programs. My focus is **Token-2022** — Transfer Hooks, Confidential
 Transfers, and the extension surface — plus **Anchor** account validation and privilege
-boundaries, and Solana's transaction-level constraints. I write the tooling I audit, so every
-finding below ships with a reproducible proof of concept and a public fix.
+boundaries, and Solana's transaction-level constraints. The entries below mix self-audits of my own
+tooling (with public fixes) and security reviews of external Solana programs.
 
 ## Selected findings
 
@@ -14,9 +14,10 @@ finding below ships with a reproducible proof of concept and a public fix.
 | [01](findings/01-sentinel-missing-authority-check.md) | Missing authority check lets any signer rewrite a mint's compliance policy | **High** | Sentinel (Anchor) | Fixed |
 | [02](findings/02-confidential-transfer-oversized-transaction.md) | Confidential transfer builds an oversized, always-failing transaction | **Medium** | confidential-sdk (Rust) | Fixed |
 | [03](findings/03-confidential-transfer-amount-over-maximum.md) | Transfer accepts an amount above the 2^48−1 maximum | **Low** | confidential-sdk (TS) | Fixed |
+| [04](findings/04-civic-transfer-hook-review.md) | Security review: Civic Pass transfer hook — solid design, 5 hardening notes, no critical issues | Info/Low | civicteam (Token-2022 hook) | Published |
 
-These come from internal security reviews (self-audits) of my own open-source projects; each links
-to the public fix. The list grows as I publish audit-competition and client findings.
+Findings 01–03 are self-audits of my own open-source projects (each links to its public fix); 04+ are
+reviews of external programs and audit-competition / client work. The list grows as I publish.
 
 ## Open-source
 
