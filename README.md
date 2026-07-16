@@ -36,6 +36,11 @@ to the public fix. The list grows as I publish audit-competition and client find
 - **Solana runtime constraints** — transaction size, compute budget, CPI and account-resolution
   correctness.
 
+## Resources
+
+- **[Token-2022 Security Checklist](token-2022-security-checklist.md)** — my working checklist for
+  auditing Token-2022 / Transfer Hook programs: extension traps, hook-author checks, integrator checks.
+
 ## Contact
 
 - **GitHub** — [github.com/joachimsz](https://github.com/joachimsz)
